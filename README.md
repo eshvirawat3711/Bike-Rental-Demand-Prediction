@@ -28,11 +28,11 @@ The business meaning of each column in the data is as below:
 
 * season: The current season (1:winter, 2:spring, 3:summer, 4:fall)
 * yr: year (0: 2011, 1:2012)
-* mnth: month ( 1 to 12)
-* hr: hour of the day (0 to 23)
+* mnth: month
+* hr: hour of the day 
 * holiday: weather day is holiday or not
 * weekday: day of the week
-* workingday: if day is neither weekend nor holiday is 1, otherwise is 0
+* workingday: if day is neither weekend nor holiday it is 1, otherwise is 0
 * weathersit: The Weather forecast for the day
 
     1: Clear, Few clouds, Partly cloudy, Partly cloudy
@@ -45,8 +45,8 @@ The business meaning of each column in the data is as below:
     
 * temp: Normalized temperature in Celsius.
 * atemp: Normalized feeling temperature in Celsius.
-* hum: Normalized humidity. The values are divided to 100 (max)
-* windspeed: Normalized wind speed. The values are divided to 67 (max)
+* hum: Normalized humidity.
+* windspeed: Normalized wind speed. 
 * casual: count of casual users
 * registered: count of registered users
 * cnt: count of total rental bikes including both casual and registered
